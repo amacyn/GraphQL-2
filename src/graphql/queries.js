@@ -2,7 +2,7 @@
 import { gql } from '@apollo/client';
 
 export const GET_BANKS = gql`
-  query GetBanks {
+  query getBanks {
     getBanks {
       code
       id
@@ -12,7 +12,7 @@ export const GET_BANKS = gql`
 `;
 
 export const GET_SERVICES_LOCATIONS = gql`
-  query GetServicesLocations {
+  query getServicesLocations {
     getServices {
       id
       name

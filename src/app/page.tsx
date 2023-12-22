@@ -4,12 +4,12 @@ const HomePage = () => {
     <main>
       <p>
         <button className='btn'>
-          <a href="./banks">Banks</a>
+          <a href="banks">Banks</a>
         </button>
       </p>
       <p>
         <button className='btn'>
-          <a href="./services-locations">Services & Locations</a>
+          <a href="services">Services & Locations</a>
         </button>
       </p>
     </main>

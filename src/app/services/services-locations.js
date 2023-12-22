@@ -1,8 +1,9 @@
+'use client'
 
 import { useQuery } from '@apollo/client';
-import { GET_SERVICES_LOCATIONS } from '../graphql/queries';
+import { GET_SERVICES_LOCATIONS } from '../../graphql/queries';
 
-const ServicesLocationsPage = () => {
+const Services = () => {
   const { loading, error, data } = useQuery(GET_SERVICES_LOCATIONS);
 
   if (loading) return <p>Loading...</p>;
@@ -59,4 +60,4 @@ const ServicesLocationsPage = () => {
   );
 };
 
-export default ServicesLocationsPage; 
+export default Services; 

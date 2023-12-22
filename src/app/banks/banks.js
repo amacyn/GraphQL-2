@@ -1,8 +1,9 @@
+'use client'
 
 import { useQuery } from '@apollo/client';
-import { GET_BANKS } from '../graphql/queries';
+import { GET_BANKS } from '../../graphql/queries';
 
-const BanksPage = () => {
+const Banks = () => {
   const { loading, error, data } = useQuery(GET_BANKS);
 
   if (loading) return <p>Loading...</p>;
@@ -35,4 +36,4 @@ const BanksPage = () => {
   );
 };
 
-export default BanksPage;
+export default Banks;
