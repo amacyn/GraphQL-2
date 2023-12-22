@@ -9,7 +9,7 @@ const HomePage = () => {
       </p>
       <p>
         <button className='btn'>
-          <a href="services">Services & Locations</a>
+          <a href="servicesLocations">Services & Locations</a>
         </button>
       </p>
     </main>
@@ -17,3 +17,8 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+
+
+

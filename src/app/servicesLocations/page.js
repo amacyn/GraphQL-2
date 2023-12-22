@@ -1,10 +1,11 @@
-import Services from './services-locations'
+import ServicesLocations from './services-locations'
 
 const ServicesLocationsPage = () => {
   
   return (
-    <Services/>
+    <ServicesLocations />
   );
 };
 
 export default ServicesLocationsPage; 
+ 

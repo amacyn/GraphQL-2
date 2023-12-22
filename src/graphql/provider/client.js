@@ -10,7 +10,8 @@ export const { getClient } = registerApolloClient(() => {
   return new NextSSRApolloClient({
     cache: new NextSSRInMemoryCache(),
     link: new HttpLink({
-      uri: "https://main--time-pav6zq.apollographos.net/graphql",
+      uri: "https://staging.carojon.com/",
     }),
   });
 });
+

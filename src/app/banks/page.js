@@ -7,3 +7,4 @@ const BanksPage = () => {
 };
 
 export default BanksPage;
+

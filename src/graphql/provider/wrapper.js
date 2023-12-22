@@ -9,7 +9,7 @@ import {
 
 function makeClient() {
   const httpLink = new HttpLink({
-      uri: "https://carojon-de456b5b4e2c.herokuapp.com/graphql",
+      uri: "https://staging.carojon.com/",
 
       credentials: 'same-origin'
   });

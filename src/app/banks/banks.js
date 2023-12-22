@@ -13,7 +13,7 @@ const Banks = () => {
 
   return (
     <div>
-      <h1>Banks</h1>
+      <h1>Banks</h1> 
       <table>
         <thead>
           <tr>
